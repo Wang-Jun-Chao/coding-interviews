@@ -63,7 +63,8 @@ public class Test02 {
     }
 
     /**
-     * 单例模式，懒汉式，变种，线程安全
+     * 单例模式，饿汉式，变种，线程安全
+     *
      */
     public static class Singleton4 {
         private static Singleton4 instance = null;
